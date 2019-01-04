@@ -1,0 +1,25 @@
+
+{
+
+    "name": "別格",
+
+    "author": "Na Studio",
+
+    "version": "0.1",
+
+    "description": "imgを、別格に",
+
+    "icons": {
+        "16":"icon_16.jpg",
+        "48": "icon.png"
+      },
+
+    "content_scripts": [{
+
+        "matches": ["*://img.2chan.net/b/res/*"],
+
+        "js" : ["particular.js"]
+
+        }]
+
+}
